@@ -6,7 +6,7 @@ Clone Detection (BCB) fron CoedXGLUE
 Given two codes as the input, the task is to do binary classification (0/1), where 1 stands for semantic equivalence and 0 for others
 The task is binary classification
 """
-from lm_eval.base import Task
+from bigcode_eval.base import Task
 import evaluate
 import json
 import random
