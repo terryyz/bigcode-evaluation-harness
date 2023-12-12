@@ -7,7 +7,7 @@ Given a source code, the task is to identify whether it is an insecure code that
 such as resource leaks, use-after-free vulnerabilities and DoS attack. 
 The task is binary classification
 """
-from lm_eval.base import Task
+from bigcode_eval.base import Task
 import re
 import evaluate
 import json
